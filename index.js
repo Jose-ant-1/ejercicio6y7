@@ -12,6 +12,7 @@ if (posicion !== -1) {
     mostrar.textContent = "La fruta " + frutaABuscar + " no se encontró en la lista";
 }
 console.log(frutas);
+//hacer con forEach junto con su metodo de array
 for (i = 0; i < frutas.length; i++) {
     console.log(frutas[i]);
 }
